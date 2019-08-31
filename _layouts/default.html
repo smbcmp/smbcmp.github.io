@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ site.title | default: site.github.repository_name }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" type="text/css" href="/asciinema-player.css" />
+  </head>
+
+  <body>
+<img src="logo.png" alt="smbcmp" id="logo" />
+<h3 id="title">diff, compare and debug SMB traffic</h3>
+
+{{ content }}
+
+  <script src="/asciinema-player.js"></script>
+  </body>
+</html>

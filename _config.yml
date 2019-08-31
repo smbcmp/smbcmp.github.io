@@ -1,3 +1,4 @@
-theme: jekyll-theme-minimal
-title: smbcmp
-logo: logo.png
+title: "smbcmp: diff, compare and debug SMB traffic"
+
+sass:
+  style: :compressed
